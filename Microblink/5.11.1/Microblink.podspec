@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
         "Jura Skrlec" => "jura.skrlec@microblink.com"
   }
 
-  s.source    = { :git => 'https://github.com/passbase/microblink.git', :tag => s.version.to_s }
+  s.source    = { :http => "https://button.passbase.com/__ios/PassbaseBlinkID_5.11.1.zip" }
 
   s.platform     = :ios
 
